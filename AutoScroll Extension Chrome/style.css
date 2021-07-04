@@ -1,0 +1,32 @@
+body{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.button{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    border: 1px;
+    height: 100%;
+    transition: background-color .3s;
+    transition: color .3s;
+    font-size: large;
+    font-weight: 700;
+    background-color: #ff9aa2;
+    margin-bottom: 5px;
+    
+}
+.button:hover{
+    cursor: pointer;
+    background-color: white;
+    color:  #ff9aa2;
+}
+.footer{
+    font-size: medium;
+    margin: auto;   
+    font-weight: 500;
+}

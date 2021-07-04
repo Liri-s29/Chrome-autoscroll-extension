@@ -1,0 +1,13 @@
+{
+    "name": "Auto Scroll",
+    "description": "Lazy for scrolling your page? Use Auto Scroll!.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "./popup.html"
+      },
+    "permissions": [
+        "tabs","https://*/*","file:///*/*", "activeTab", "chrome://*/*", "http://*/*", "https://*.google.com/*"
+      ] 
+
+}
